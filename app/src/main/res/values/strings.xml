@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MusicAppStructure</string>
+    <string name="welcome_message">Welcome in MyMusicApp</string>
+    <string name="click_to_start">Click anything to START</string>
+    <string name="music_view_message">Hello in list of song activity.
+        In this scrren you see all the song who you have on the phone.</string>
+    <string name="ariana_song_1">Ariana Grande - One last time</string>
+    <string name="add_playlist">+ to playlist</string>
+    <string name="ariana_song_2">Ariana Grande - Love Me Harder</string>
+    <string name="ariana_song_3">Ariana Grande - Focus</string>
+    <string name="imagine_dragons_1">Imagine Dragons - Walking The Wire</string>
+    <string name="ellie_1">Ellie Goulding - Something In The Way You Move</string>
+    <string name="robin_1">Robin Schulz – OK</string>
+    <string name="katy_1">Katy Perry - Swish Swish</string>
+    <string name="katy_2">Katy Perry - This Is How We Do</string>
+    <string name="katy_3">Katy Perry - Unconditionally</string>
+    <string name="play_now">NowPlay</string>
+    <string name="my_music">MyMusic</string>
+    <string name="playlist">Playlist</string>
+    <string name="payment">Buy Song</string>
+    <string name="menu_message">Hello in Menu activity. On this scrren you can move on the all acvtivity in application</string>
+    <string name="playlist_message">Hello in Playist view. In this screen you can add your songs in playlist and next play they.</string>
+    <string name="name_playlist">MyMusic</string>
+    <string name="name_playlist_example">Playlist</string>
+    <string name="play_message">Hello in play activity on this page you can hear your favourite songs.</string>
+    <string name="menu">MENU</string>
+    <string name="back">BACK</string>
+    <string name="name_songs_play">Ariana Grande - Love Me Harder</string>
+</resources>

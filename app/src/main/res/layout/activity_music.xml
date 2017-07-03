@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow style="@style/table_row">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/music_view_message" />
+
+            </TableRow>
+
+            <TableRow style="@style/table_row">
+
+                <ImageView
+                    style="@style/image_list_song"
+                    android:src="@drawable/ariana" />
+
+                <TextView
+                    style="@style/text_list_song"
+                    android:text="@string/ariana_song_1" />
+
+                <Button style="@style/button_list_song" />
+            </TableRow>
+
+            <TableRow style="@style/table_row">
+
+                <ImageView
+                    style="@style/image_list_song"
+                    android:src="@drawable/ariana" />
+
+                <TextView
+                    style="@style/text_list_song"
+                    android:text="@string/ariana_song_2" />
+
+                <Button style="@style/button_list_song" />
+            </TableRow>
+
+            <TableRow style="@style/table_row">
+
+                <ImageView
+                    style="@style/image_list_song"
+                    android:src="@drawable/ariana" />
+
+                <TextView
+                    style="@style/text_list_song"
+                    android:text="@string/ariana_song_3" />
+
+                <Button style="@style/button_list_song" />
+            </TableRow>
+
+            <TableRow style="@style/table_row">
+
+                <ImageView
+                    style="@style/image_list_song"
+                    android:src="@drawable/cdplay" />
+
+                <TextView
+                    style="@style/text_list_song"
+                    android:text="@string/imagine_dragons_1" />
+
+                <Button style="@style/button_list_song" />
+            </TableRow>
+
+            <TableRow style="@style/table_row">
+
+                <ImageView
+                    style="@style/image_list_song"
+                    android:src="@drawable/cdplay" />
+
+                <TextView
+                    style="@style/text_list_song"
+                    android:text="@string/ellie_1" />
+
+                <Button style="@style/button_list_song" />
+            </TableRow>
+
+            <TableRow style="@style/table_row">
+
+                <ImageView
+                    style="@style/image_list_song"
+                    android:src="@drawable/cdplay" />
+
+                <TextView
+                    style="@style/text_list_song"
+                    android:text="@string/robin_1" />
+
+                <Button style="@style/button_list_song" />
+            </TableRow>
+
+            <TableRow style="@style/table_row">
+
+                <ImageView
+                    style="@style/image_list_song"
+                    android:src="@drawable/katyperry" />
+
+                <TextView
+                    style="@style/text_list_song"
+                    android:text="@string/katy_1" />
+
+                <Button style="@style/button_list_song" />
+            </TableRow>
+
+            <TableRow style="@style/table_row">
+
+                <ImageView
+                    style="@style/image_list_song"
+                    android:src="@drawable/katyperry" />
+
+                <TextView
+                    style="@style/text_list_song"
+                    android:text="@string/katy_2" />
+
+                <Button style="@style/button_list_song" />
+            </TableRow>
+
+            <TableRow style="@style/table_row">
+
+                <ImageView
+                    style="@style/image_list_song"
+                    android:src="@drawable/katyperry" />
+
+                <TextView
+                    style="@style/text_list_song"
+                    android:text="@string/katy_3" />
+
+                <Button style="@style/button_list_song" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

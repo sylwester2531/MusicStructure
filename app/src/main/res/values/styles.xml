@@ -1,0 +1,151 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="welcome_message">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">@string/welcome_message</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/size_text_welcome</item>
+    </style>
+
+    <style name="click_message">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/click_to_start</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/size_text_click</item>
+    </style>
+
+    <style name="table_row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="image_list_song">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/list_song_photo_height_button</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="text_list_song">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/padding_song_name</item>
+        <item name="android:textSize">@dimen/text_size_song_name</item>
+    </style>
+
+    <style name="button_list_song">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/list_song_photo_height_button</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:text">@string/add_playlist</item>
+        <item name="android:textSize">@dimen/text_size_button</item>
+    </style>
+
+    <style name="menu_text_row">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/padding_button_menu</item>
+        <item name="android:textSize">@dimen/size_button_menu_text</item>
+    </style>
+
+    <style name="menu_image_row">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/image_height_menu</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="playlist_message_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingBottom">@dimen/padding_bottom_message</item>
+        <item name="android:text">@string/playlist_message</item>
+    </style>
+
+    <style name="playlist_row_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">@dimen/playlist_row_margin</item>
+    </style>
+
+    <style name="playlist_relative_layout_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginEnd">@dimen/playlist_margin</item>
+        <item name="android:layout_marginRight">@dimen/playlist_margin</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/colorList</item>
+    </style>
+
+    <style name="playlist_image_default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:src">@drawable/add_photo</item>
+    </style>
+
+    <style name="playlist_image_album">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:src">@drawable/katyperry</item>
+    </style>
+
+    <style name="playlist_name_text_example">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/playlist_name_margin</item>
+        <item name="android:text">@string/name_playlist_example</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/playlist_text_size</item>
+    </style>
+
+    <style name="playlist_name_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/playlist_name_margin</item>
+        <item name="android:text">@string/name_playlist</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">@dimen/playlist_text_size</item>
+    </style>
+
+    <style name="play_page_image">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:padding">@dimen/song_page_padding_15</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:src">@drawable/ariana</item>
+    </style>
+
+    <style name="play_page_name_song">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:text">@string/name_songs_play</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>
