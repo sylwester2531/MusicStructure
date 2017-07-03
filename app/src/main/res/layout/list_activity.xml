@@ -30,7 +30,9 @@
 
             <TableRow style="@style/playlist_row_style">
 
-                <RelativeLayout style="@style/playlist_relative_layout_style">
+                <RelativeLayout
+                    style="@style/playlist_relative_layout_style"
+                    android:onClick="play">
 
                     <ImageButton
                         android:id="@+id/image_add"
@@ -40,7 +42,9 @@
                 </RelativeLayout>
 
 
-                <RelativeLayout style="@style/playlist_relative_layout_style">
+                <RelativeLayout
+                    style="@style/playlist_relative_layout_style"
+                    android:onClick="play">
 
 
                     <ImageButton
@@ -54,7 +58,9 @@
             <TableRow style="@style/playlist_row_style">
 
 
-                <RelativeLayout style="@style/playlist_relative_layout_style">
+                <RelativeLayout
+                    style="@style/playlist_relative_layout_style"
+                    android:onClick="play">
 
 
                     <ImageButton
@@ -65,7 +71,9 @@
                     <TextView style="@style/playlist_name_text_example" />
                 </RelativeLayout>
 
-                <RelativeLayout style="@style/playlist_relative_layout_style">
+                <RelativeLayout
+                    style="@style/playlist_relative_layout_style"
+                    android:onClick="play">
 
                     <ImageButton
                         android:id="@+id/image_add4"
@@ -79,7 +87,9 @@
             <TableRow style="@style/playlist_row_style">
 
 
-                <RelativeLayout style="@style/playlist_relative_layout_style">
+                <RelativeLayout
+                    style="@style/playlist_relative_layout_style"
+                    android:onClick="play">
 
 
                     <ImageButton
@@ -90,7 +100,9 @@
                     <TextView style="@style/playlist_name_text_example" />
                 </RelativeLayout>
 
-                <RelativeLayout style="@style/playlist_relative_layout_style">
+                <RelativeLayout
+                    style="@style/playlist_relative_layout_style"
+                    android:onClick="play">
 
 
                     <ImageButton
@@ -105,7 +117,9 @@
             <TableRow style="@style/playlist_row_style">
 
 
-                <RelativeLayout style="@style/playlist_relative_layout_style">
+                <RelativeLayout
+                    style="@style/playlist_relative_layout_style"
+                    android:onClick="play">
 
 
                     <ImageButton
@@ -116,7 +130,9 @@
                     <TextView style="@style/playlist_name_text_example" />
                 </RelativeLayout>
 
-                <RelativeLayout style="@style/playlist_relative_layout_style">
+                <RelativeLayout
+                    style="@style/playlist_relative_layout_style"
+                    android:onClick="play">
 
 
                     <ImageButton

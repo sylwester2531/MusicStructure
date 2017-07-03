@@ -31,6 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/menu"
+            android:onClick="menu"
             android:textAlignment="center"
             android:textStyle="bold" />
 
@@ -39,6 +40,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="playlist"
             android:text="@string/playlist"
             android:textAlignment="center"
             android:textAllCaps="true" />
@@ -48,6 +50,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:onClick="menu"
             android:text="@string/back"
             android:textAlignment="center"
             android:textStyle="bold" />
@@ -61,6 +64,7 @@
         <ImageView
             android:id="@+id/album"
             android:layout_width="0dp"
+            android:onClick="music"
             android:layout_height="match_parent"
             android:layout_weight="4"
             android:padding="@dimen/song_page_padding_15"
@@ -134,6 +138,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:onClick="listsong"
         android:padding="@dimen/song_page_padding">
 
         <TextView

@@ -26,4 +26,6 @@
     <string name="menu">MENU</string>
     <string name="back">BACK</string>
     <string name="name_songs_play">Ariana Grande - Love Me Harder</string>
+    <string name="payment_api">On this layout we can buy the favourite song, I use API to do this.
+        I choose https://developer.paysafe.com/en/sdks/mobile/android/overview/ wher is all information how do it. Enough only read documentation</string>
 </resources>
