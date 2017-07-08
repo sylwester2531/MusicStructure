@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+
     public void start(View view) {
         Intent intentStart = new Intent(MainActivity.this, StartActivity.class );
         startActivity(intentStart);

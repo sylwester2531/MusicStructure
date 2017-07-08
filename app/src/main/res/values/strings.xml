@@ -2,6 +2,10 @@
     <string name="app_name">MusicAppStructure</string>
     <string name="welcome_message">Welcome in MyMusicApp</string>
     <string name="click_to_start">Click anything to START</string>
+    <string name="menu_message">Hello in Menu activity. On this scrren you can move on the all acvtivity in application</string>
+    <string name="play_now">NowPlay</string>
+    <string name="my_music">MyMusic</string>
+    <string name="playlist">Playlist</string>
     <string name="music_view_message">Hello in list of song activity.
         In this scrren you see all the song who you have on the phone.</string>
     <string name="ariana_song_1">Ariana Grande - One last time</string>
@@ -14,18 +18,14 @@
     <string name="katy_1">Katy Perry - Swish Swish</string>
     <string name="katy_2">Katy Perry - This Is How We Do</string>
     <string name="katy_3">Katy Perry - Unconditionally</string>
-    <string name="play_now">NowPlay</string>
-    <string name="my_music">MyMusic</string>
-    <string name="playlist">Playlist</string>
-    <string name="payment">Buy Song</string>
-    <string name="menu_message">Hello in Menu activity. On this scrren you can move on the all acvtivity in application</string>
     <string name="playlist_message">Hello in Playist view. In this screen you can add your songs in playlist and next play they.</string>
     <string name="name_playlist">MyMusic</string>
     <string name="name_playlist_example">Playlist</string>
     <string name="play_message">Hello in play activity on this page you can hear your favourite songs.</string>
     <string name="menu">MENU</string>
     <string name="back">BACK</string>
+    <string name="go_to_music">Go to music</string>
     <string name="name_songs_play">Ariana Grande - Love Me Harder</string>
-    <string name="payment_api">On this layout we can buy the favourite song, I use API to do this.
-        I choose https://developer.paysafe.com/en/sdks/mobile/android/overview/ wher is all information how do it. Enough only read documentation</string>
+    <string name="info_activity">Info Activity</string>
+    <string name="info">The all musisc who use in the music app we get with Internet and storage phone. In the Play activity we can hear music, see the time song, go to list of song, back to menu. In My Music activity we can see all the music who we have on the phone and hear this and add they to playlist.In playlist activity we have all the playlist with the song who we add to playlist and next listning favourite song.  </string>
 </resources>

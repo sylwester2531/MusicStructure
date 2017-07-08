@@ -31,7 +31,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/menu"
-            android:onClick="menu"
             android:textAlignment="center"
             android:textStyle="bold" />
 
@@ -40,7 +39,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="playlist"
             android:text="@string/playlist"
             android:textAlignment="center"
             android:textAllCaps="true" />
@@ -50,7 +48,6 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:onClick="menu"
             android:text="@string/back"
             android:textAlignment="center"
             android:textStyle="bold" />
@@ -64,9 +61,9 @@
         <ImageView
             android:id="@+id/album"
             android:layout_width="0dp"
-            android:onClick="music"
             android:layout_height="match_parent"
             android:layout_weight="4"
+            android:onClick="music"
             android:padding="@dimen/song_page_padding_15"
             android:scaleType="fitCenter"
             android:src="@drawable/ariana" />
@@ -79,7 +76,7 @@
         android:layout_weight="1"
         android:padding="@dimen/song_page_padding_5">
 
-        <ImageView
+        <ImageButton
             android:id="@+id/mpreviouss"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -87,7 +84,7 @@
             android:padding="@dimen/song_page_padding"
             android:src="@drawable/prev" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/pausem"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -95,15 +92,15 @@
             android:padding="@dimen/song_page_padding_5"
             android:src="@drawable/pause" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/playm"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:padding="@dimen/song_page_padding_2"
-            android:src="@drawable/play" />
+            android:src="@drawable/play_song" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/stopm"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -111,7 +108,7 @@
             android:padding="@dimen/song_page_padding_5"
             android:src="@drawable/stop" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/mnexts"
             android:layout_width="0dp"
             android:layout_height="match_parent"
@@ -138,10 +135,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:onClick="listsong"
         android:padding="@dimen/song_page_padding">
 
         <TextView
+            android:id="@+id/listsong"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:ellipsize="end"

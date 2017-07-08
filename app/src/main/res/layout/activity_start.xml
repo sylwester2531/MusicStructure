@@ -10,87 +10,37 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.android.musicappstructure.StartActivity">
 
-    <TableLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/play"
+        style="@style/button_menu"
+        android:drawableLeft="@drawable/play"
+        android:drawableStart="@drawable/play"
+        android:text="@string/play_now" />
 
-        <TableRow
-            style="@style/table_row"
-            android:onClick="play">
+    <Button
+        android:id="@+id/mymusic"
+        style="@style/button_menu"
+        android:drawableLeft="@drawable/cdplay"
+        android:drawableStart="@drawable/cdplay"
+        android:text="@string/my_music" />
 
-            <ImageView
-                style="@style/menu_image_row"
-                android:src="@drawable/play" />
+    <Button
+        android:id="@+id/playlist"
+        style="@style/button_menu"
+        android:drawableLeft="@drawable/playlist"
+        android:drawableStart="@drawable/playlist"
+        android:text="@string/playlist" />
 
-            <TextView
-                style="@style/menu_text_row"
-                android:text="@string/play_now" />
+    <Button
+        android:id="@+id/info"
+        style="@style/button_menu"
+        android:text="@string/info_activity" />
 
-            <ImageView
-                style="@style/menu_image_row"
-                android:src="@drawable/play" />
-        </TableRow>
+    <TableRow style="@style/table_row">
 
-        <TableRow
-            style="@style/table_row"
-            android:onClick="music">
-
-            <ImageView
-                style="@style/menu_image_row"
-                android:src="@drawable/cdplay" />
-
-            <TextView
-                style="@style/menu_text_row"
-                android:text="@string/my_music" />
-
-            <ImageView
-                style="@style/menu_image_row"
-                android:src="@drawable/cdplay" />
-        </TableRow>
-
-
-        <TableRow
-            style="@style/table_row"
-            android:onClick="list">
-
-            <ImageView
-                style="@style/menu_image_row"
-                android:src="@drawable/playlist" />
-
-            <TextView
-                style="@style/menu_text_row"
-                android:text="@string/playlist" />
-
-            <ImageView
-                style="@style/menu_image_row"
-                android:src="@drawable/playlist" />
-        </TableRow>
-
-        <TableRow
-            style="@style/table_row"
-            android:onClick="settings">
-
-            <ImageView
-                style="@style/menu_image_row"
-                android:src="@drawable/buy" />
-
-            <TextView
-                style="@style/menu_text_row"
-                android:text="@string/payment" />
-
-            <ImageView
-                style="@style/menu_image_row"
-                android:src="@drawable/buy" />
-        </TableRow>
-
-        <TableRow
-            style="@style/table_row"
-            android:onClick="settings">
-
-            <TextView
-                style="@style/menu_text_row"
-                android:text="@string/menu_message" />
-        </TableRow>
-    </TableLayout>
+        <TextView
+            style="@style/menu_text_row"
+            android:text="@string/menu_message" />
+    </TableRow>
 
 </LinearLayout>

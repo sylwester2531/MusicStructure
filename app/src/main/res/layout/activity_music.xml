@@ -33,12 +33,13 @@
                     android:src="@drawable/ariana" />
 
                 <TextView
+                    android:id="@+id/ones"
                     style="@style/text_list_song"
-                    android:onClick="playthis"
                     android:text="@string/ariana_song_1" />
 
-                <Button style="@style/button_list_song"
-                    android:onClick="playlist"/>
+                <Button
+                    android:id="@+id/playlist_add"
+                    style="@style/button_list_song" />
             </TableRow>
 
             <TableRow style="@style/table_row">
@@ -48,12 +49,13 @@
                     android:src="@drawable/ariana" />
 
                 <TextView
-                    android:onClick="playthis"
+                    android:id="@+id/two"
                     style="@style/text_list_song"
                     android:text="@string/ariana_song_2" />
 
-                <Button style="@style/button_list_song"
-                    android:onClick="playlist"/>
+                <Button
+                    android:id="@+id/playlist_add2"
+                    style="@style/button_list_song" />
             </TableRow>
 
             <TableRow style="@style/table_row">
@@ -63,12 +65,10 @@
                     android:src="@drawable/ariana" />
 
                 <TextView
-                    android:onClick="playthis"
                     style="@style/text_list_song"
                     android:text="@string/ariana_song_3" />
 
-                <Button style="@style/button_list_song"
-                    android:onClick="playlist"/>
+                <Button style="@style/button_list_song" />
             </TableRow>
 
             <TableRow style="@style/table_row">
@@ -78,12 +78,10 @@
                     android:src="@drawable/cdplay" />
 
                 <TextView
-                    android:onClick="playthis"
                     style="@style/text_list_song"
                     android:text="@string/imagine_dragons_1" />
 
-                <Button style="@style/button_list_song"
-                    android:onClick="playlist"/>
+                <Button style="@style/button_list_song" />
             </TableRow>
 
             <TableRow style="@style/table_row">
@@ -93,12 +91,10 @@
                     android:src="@drawable/cdplay" />
 
                 <TextView
-                    android:onClick="playthis"
                     style="@style/text_list_song"
                     android:text="@string/ellie_1" />
 
-                <Button style="@style/button_list_song"
-                    android:onClick="playlist"/>
+                <Button style="@style/button_list_song" />
             </TableRow>
 
             <TableRow style="@style/table_row">
@@ -108,12 +104,10 @@
                     android:src="@drawable/cdplay" />
 
                 <TextView
-                    android:onClick="playthis"
                     style="@style/text_list_song"
                     android:text="@string/robin_1" />
 
-                <Button style="@style/button_list_song"
-                    android:onClick="playlist"/>
+                <Button style="@style/button_list_song" />
             </TableRow>
 
             <TableRow style="@style/table_row">
@@ -123,12 +117,10 @@
                     android:src="@drawable/katyperry" />
 
                 <TextView
-                    android:onClick="playthis"
                     style="@style/text_list_song"
                     android:text="@string/katy_1" />
 
-                <Button style="@style/button_list_song"
-                    android:onClick="playlist"/>
+                <Button style="@style/button_list_song" />
             </TableRow>
 
             <TableRow style="@style/table_row">
@@ -138,12 +130,10 @@
                     android:src="@drawable/katyperry" />
 
                 <TextView
-                    android:onClick="playthis"
                     style="@style/text_list_song"
                     android:text="@string/katy_2" />
 
-                <Button style="@style/button_list_song"
-                    android:onClick="playlist"/>
+                <Button style="@style/button_list_song" />
             </TableRow>
 
             <TableRow style="@style/table_row">
@@ -153,12 +143,10 @@
                     android:src="@drawable/katyperry" />
 
                 <TextView
-                    android:onClick="playthis"
                     style="@style/text_list_song"
                     android:text="@string/katy_3" />
 
-                <Button style="@style/button_list_song"
-                    android:onClick="playlist"/>
+                <Button style="@style/button_list_song" />
             </TableRow>
 
         </TableLayout>
