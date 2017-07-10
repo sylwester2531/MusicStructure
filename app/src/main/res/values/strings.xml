@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">MusicAppStructure</string>
     <string name="welcome_message">Welcome in MyMusicApp</string>
-    <string name="click_to_start">Click anything to START</string>
+    <string name="click_to_start">Click there to START</string>
     <string name="menu_message">Hello in Menu activity. On this scrren you can move on the all acvtivity in application</string>
     <string name="play_now">NowPlay</string>
     <string name="my_music">MyMusic</string>
@@ -26,6 +26,7 @@
     <string name="back">BACK</string>
     <string name="go_to_music">Go to music</string>
     <string name="name_songs_play">Ariana Grande - Love Me Harder</string>
-    <string name="info_activity">Info Activity</string>
+    <string name="info_activity">Payment Activity</string>
+    <string name="payment">if I were to implement payment option then I would have used this Payu RestApi library.</string>
     <string name="info">The all musisc who use in the music app we get with Internet and storage phone. In the Play activity we can hear music, see the time song, go to list of song, back to menu. In My Music activity we can see all the music who we have on the phone and hear this and add they to playlist.In playlist activity we have all the playlist with the song who we add to playlist and next listning favourite song.  </string>
 </resources>

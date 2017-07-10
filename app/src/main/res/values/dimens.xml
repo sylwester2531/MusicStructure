@@ -21,5 +21,6 @@
     <dimen name="song_page_padding_5">5dp</dimen>
     <dimen name="song_page_padding_15">15dp</dimen>
     <dimen name="song_page_padding_2">2dp</dimen>
+    <dimen name="padding20dp">20dp</dimen>
 
 </resources>

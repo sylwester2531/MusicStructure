@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
@@ -41,6 +42,13 @@ public class PlayActivity extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intentStart = new Intent(PlayActivity.this, ListActivity.class);
+                startActivity(intentStart);
+            }
+        });
+        ImageView button5 = (ImageView) findViewById(R.id.album);
+        button5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intentStart = new Intent(PlayActivity.this, MusicActivity.class);
                 startActivity(intentStart);
             }
         });

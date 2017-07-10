@@ -1,46 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.android.musicappstructure.StartActivity">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="3"
+    android:orientation="vertical">
 
-    <Button
-        android:id="@+id/play"
-        style="@style/button_menu"
-        android:drawableLeft="@drawable/play"
-        android:drawableStart="@drawable/play"
-        android:text="@string/play_now" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.musicappstructure.StartActivity">
 
-    <Button
-        android:id="@+id/mymusic"
-        style="@style/button_menu"
-        android:drawableLeft="@drawable/cdplay"
-        android:drawableStart="@drawable/cdplay"
-        android:text="@string/my_music" />
 
-    <Button
-        android:id="@+id/playlist"
-        style="@style/button_menu"
-        android:drawableLeft="@drawable/playlist"
-        android:drawableStart="@drawable/playlist"
-        android:text="@string/playlist" />
+        <Button
+            android:id="@+id/play"
+            style="@style/button_menu"
+            android:drawableLeft="@drawable/play"
+            android:drawableStart="@drawable/play"
+            android:text="@string/play_now" />
 
-    <Button
-        android:id="@+id/info"
-        style="@style/button_menu"
-        android:text="@string/info_activity" />
+        <Button
+            android:id="@+id/mymusic"
+            style="@style/button_menu"
+            android:drawableLeft="@drawable/cdplay"
+            android:drawableStart="@drawable/cdplay"
+            android:text="@string/my_music" />
 
-    <TableRow style="@style/table_row">
+        <Button
+            android:id="@+id/playlist"
+            style="@style/button_menu"
+            android:drawableLeft="@drawable/playlist"
+            android:drawableStart="@drawable/playlist"
+            android:text="@string/playlist" />
 
-        <TextView
-            style="@style/menu_text_row"
-            android:text="@string/menu_message" />
-    </TableRow>
+        <Button
+            android:id="@+id/info"
+            style="@style/button_menu"
+            android:text="@string/info_activity" />
 
-</LinearLayout>
+        <TableRow style="@style/table_row">
+
+            <TextView
+                style="@style/menu_text_row"
+                android:text="@string/menu_message" />
+        </TableRow>
+    </LinearLayout>
+</ScrollView>

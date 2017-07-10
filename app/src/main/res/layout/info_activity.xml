@@ -16,6 +16,9 @@
         android:layout_height="wrap_content"
         android:text="@string/info" />
 
+    <TextView
+        style="@style/payment_Info" />
+
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
